@@ -1,0 +1,11 @@
+---------------fonts-------
+Myriadpro 
+	:-Cound
+	:-Bold
+	:-Regular  its form HTML BODY also form <p> tag
+
+Rokkitt
+	:-
+
+Quicksand 
+	:-Regular

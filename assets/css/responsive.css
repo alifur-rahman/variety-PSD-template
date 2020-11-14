@@ -1,0 +1,120 @@
+@media all and (min-width:991px){
+    .menu ul {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+}
+@media all and (max-width:991px){
+    .logo-menu {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+    .logo-menu.toggle_class {
+        background: #3f8a7b;
+    }
+    .fiexdHeader {
+        position: fixed;
+    }
+    .menu ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
+        margin-top: 2rem;
+        display: none;
+    }
+    .logo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .nav-icon{
+        display: block;
+    }
+    .nav-icon i {
+        font-size: 2.5rem;
+        display: inline-block;
+        border: .1rem solid #fff;
+        padding: .2rem .6rem;
+        border-radius: .3rem;
+    }
+    .banner-content {
+        padding: 15rem 0 8rem 0;
+    }
+    .about-content-area p {
+        max-width: 80%;
+    }
+    .about-skill-area {
+        padding-top: 10.4rem;
+    }
+    .section-padding {
+        padding: 3rem 0;
+    }
+
+}
+@media all and (max-width:768px){
+    .section-padding {
+        padding: 7rem 0 5rem 0;
+    }
+    .single-skill-content {
+        margin-bottom: 5rem;
+    }
+    .about-content-area p {
+        max-width: 100%;
+    }
+    .single-gallery {
+        margin: 2rem auto;
+    }
+    input {
+        -webkit-box-flex: 100%;
+            -ms-flex: 100%;
+                flex: 100%;
+        max-width: 100%;
+    }
+}
+@media all and (max-width:530px){
+    h1 {
+        font-size: 4rem;
+    }
+    .banner-content p {
+        font-size: 1.8rem;
+    }
+    .banner-content {
+        padding: 10rem 0 4rem 0;
+    }
+    h2 {
+        font-size: 2.3rem;
+    }
+    .button a {
+        padding: .5rem 2.5rem;
+    }
+    p {
+        font-size: 1.6rem;
+    }
+    .about-content-area p {
+        margin-bottom: 4rem;
+    }
+    .single-skill-content {
+        margin-bottom: 3rem;
+    }
+    .section-padding {
+        padding: 7rem 0 1rem 0;
+    }
+    .gallery-area .button {
+        margin: 2rem 0;
+    }
+    #contact {
+        padding: 4rem 0 0 0;
+    }
+}
